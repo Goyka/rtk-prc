@@ -13,4 +13,3 @@ root.render(
     </BrowserRouter>
   </Provider>
 );
-export default index;

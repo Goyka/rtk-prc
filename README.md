@@ -1,4 +1,3 @@
-#### RTK Practice web
+#### RTK Practice Web catalog
 
 Dev. : Goya Gim
-Learn Redux toolkit on React.js.

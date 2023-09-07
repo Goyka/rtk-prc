@@ -4,6 +4,7 @@ const initialState = {};
 
 const prcSlice = createSlice({
   name: "prac",
+  initialState,
   reducers: {},
 });
 

@@ -37,7 +37,7 @@ export const Title = styled.span`
 
 export const Toggle = styled.span`
   font-size: 21px;
-  font-weight: 600;
+  font-weight: 500;
   margin: 3px 0 0 0;
   cursor: pointer;
 `;

@@ -8,12 +8,20 @@ const colors = {
 };
 
 export const Wrap = styled.div`
-  max-width: 499px;
+  max-width: 1440px;
   height: 735px;
-  padding: 17px;
+  padding: 21px;
   font-family: system-ui, -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto,
     Oxygen, Ubuntu, Cantarell, "Open Sans", "Helvetica Neue", sans-serif;
   font-weight: 600;
+
+  @media (max-width: 768px) {
+    padding: 17px;
+  }
+
+  @media (max-width: 480px) {
+    padding: 11px;
+  }
 `;
 
 export const Nav = styled.header`

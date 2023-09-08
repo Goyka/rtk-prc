@@ -11,8 +11,7 @@ const Body = ({ mode }) => {
   return (
     <St.Container
       style={{
-        background: mode ? "#1e3135" : "#f2ffb9",
-        color: mode ? "#f9f9f9" : "#151515",
+        background: mode ? "#34344d" : "#f2ffb9",
       }}
     >
       <St.TextLink
@@ -20,7 +19,7 @@ const Body = ({ mode }) => {
         onMouseEnter={handleMouseHover}
         style={{ color: mode ? "#f9f9f9" : "#151515" }}
       >
-        {hover ? "37°32'58.6\"N  127°04'55.9\"E" : "••• location"}
+        {hover ? "37°32'58.6\"n  127°04'55.9\"e" : "••• location"}
       </St.TextLink>
       <St.TextLink
         href="https://github.com/Goyka"

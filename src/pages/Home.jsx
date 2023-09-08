@@ -8,7 +8,7 @@ const Home = () => {
   return (
     <St.Wrap
       style={{
-        background: mode ? "#1e3135" : "#f2ffb9",
+        background: mode ? "#34344d" : "#f2ffb9",
         color: mode ? "#f9f9f9" : "#151515",
       }}
     >
@@ -25,7 +25,7 @@ const Home = () => {
         </St.Toggle>
         <br />
       </St.Nav>
-      <Body />
+      <Body mode={mode} />
     </St.Wrap>
   );
 };

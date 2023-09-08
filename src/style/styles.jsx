@@ -39,6 +39,7 @@ export const Toggle = styled.span`
 export const Container = styled.div`
   display: flex;
   flex-direction: column;
+  font-size: 14px;
 `;
 
 export const TextLink = styled.a`

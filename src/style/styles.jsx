@@ -11,9 +11,7 @@ export const Wrap = styled.div`
   max-width: 1440px;
   height: 735px;
   padding: 21px;
-  font-family: system-ui, -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto,
-    Oxygen, Ubuntu, Cantarell, "Open Sans", "Helvetica Neue", sans-serif;
-  font-weight: 600;
+  font-family: "Ubuntu", sans-serif;
 
   @media (max-width: 768px) {
     padding: 17px;
@@ -33,21 +31,23 @@ export const Nav = styled.header`
 `;
 
 export const Title = styled.span`
-  font-size: 15px;
-  font-weight: 700;
+  font-size: 17px;
+  font-weight: 600;
 `;
 
 export const Toggle = styled.span`
-  font-size: 15px;
-  font-weight: 700;
-  margin: 7px 0 0 0;
+  font-size: 21px;
+  font-weight: 600;
+  margin: 3px 0 0 0;
   cursor: pointer;
 `;
 
 export const Container = styled.div`
   display: flex;
   flex-direction: column;
-  font-size: 14px;
+  margin: 11px 0 0 0;
+  font-size: 13px;
+  font-weight: 500;
 `;
 
 export const TextLink = styled.a`

@@ -23,8 +23,8 @@ const Home = () => {
         >
           ↺
         </St.Toggle>
-        <br />
       </St.Nav>
+      <br />
       <Body mode={mode} />
     </St.Wrap>
   );

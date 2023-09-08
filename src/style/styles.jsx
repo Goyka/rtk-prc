@@ -38,20 +38,21 @@ export const Title = styled.span`
 export const Toggle = styled.span`
   font-size: 19px;
   font-weight: 500;
-  margin: 7px 0 0 0;
+  margin: 9px 0 0 0;
   cursor: pointer;
 `;
 
 export const Container = styled.div`
+  width: 361px;
   display: flex;
   flex-direction: column;
-  margin: 9px 0 0 0;
   font-size: 13px;
   font-weight: 600;
   line-height: 1.2;
 `;
 
 export const TextLink = styled.a`
+  width: max-content;
   color: ${(props) => props.textColor};
   text-decoration: none;
   cursor: pointer;

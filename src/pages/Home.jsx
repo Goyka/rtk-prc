@@ -35,13 +35,19 @@ const Home = () => {
           color: mode ? "#f9f9f9" : "#151515",
         }}
       >
-        <St.Link to="https://github.com/Goyka">link / github</St.Link>
-        <St.Link
-          to="https://goo.gl/maps/9qBiBuzCWJ4M7WYv9"
-          onMouseEnter={handleMouseHover}
+        <St.TextLink
+          href="https://github.com/Goyka"
+          style={{ color: mode ? "#f9f9f9" : "#151515" }}
         >
-          {hover ? "37°32'58.6\"N 127°04'55.9\"E" : "•••location"}
-        </St.Link>
+          link / github
+        </St.TextLink>
+        <St.TextLink
+          href="https://goo.gl/maps/9qBiBuzCWJ4M7WYv9"
+          onMouseEnter={handleMouseHover}
+          style={{ color: mode ? "#f9f9f9" : "#151515" }}
+        >
+          {hover ? "37°32'58.6\"N  127°04'55.9\"E" : "••• location"}
+        </St.TextLink>
       </St.Container>
     </St.Wrap>
   );

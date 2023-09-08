@@ -1,3 +1,7 @@
 #### RTK Practice Web catalog
 
-Dev. : Goya Gim
+Developer : Goya Gim
+Available :
+
+Dark Mode
+Text Link

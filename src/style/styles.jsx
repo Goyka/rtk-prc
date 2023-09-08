@@ -40,17 +40,8 @@ export const Container = styled.div`
   flex-direction: column;
 `;
 
-export const Link = styled.a`
+export const TextLink = styled.a`
   color: ${(props) => props.textColor};
-`;
-
-export const Github = styled(Link)`
   text-decoration: none;
   cursor: pointer;
-`;
-
-export const Cordinate = styled(Link)`
-  text-decoration: none;
-  cursor: pointer;
-  width: 247px;
 `;

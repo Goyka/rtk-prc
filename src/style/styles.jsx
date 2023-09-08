@@ -25,6 +25,7 @@ export const Wrap = styled.div`
 export const Nav = styled.header`
   display: flex;
   vertical-align: auto;
+  width: max-content;
   height: 100px;
   margin: 0px 0 0 0;
   flex-direction: column;
@@ -56,4 +57,11 @@ export const TextLink = styled.a`
   color: ${(props) => props.textColor};
   text-decoration: none;
   cursor: pointer;
+`;
+
+export const Modal = styled.div`
+  position: absolute;
+  padding: 51px;
+  width: max-content;
+  height: max-content;
 `;

@@ -11,7 +11,7 @@ export const Wrap = styled.div`
   max-width: 1440px;
   height: 735px;
   padding: 21px;
-  font-family: "Ubuntu", sans-serif;
+  font-family: Arial, Helvetica, sans-serif;
 
   @media (max-width: 768px) {
     padding: 17px;
@@ -31,23 +31,24 @@ export const Nav = styled.header`
 `;
 
 export const Title = styled.span`
-  font-size: 17px;
+  font-size: 15px;
   font-weight: 600;
 `;
 
 export const Toggle = styled.span`
-  font-size: 21px;
+  font-size: 19px;
   font-weight: 500;
-  margin: 3px 0 0 0;
+  margin: 7px 0 0 0;
   cursor: pointer;
 `;
 
 export const Container = styled.div`
   display: flex;
   flex-direction: column;
-  margin: 11px 0 0 0;
+  margin: 9px 0 0 0;
   font-size: 13px;
-  font-weight: 500;
+  font-weight: 600;
+  line-height: 1.2;
 `;
 
 export const TextLink = styled.a`

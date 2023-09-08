@@ -10,7 +10,7 @@ const colors = {
 export const Wrap = styled.div`
   max-width: 499px;
   height: 735px;
-  padding: 21px;
+  padding: 17px;
   font-family: system-ui, -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto,
     Oxygen, Ubuntu, Cantarell, "Open Sans", "Helvetica Neue", sans-serif;
   font-weight: 600;
@@ -32,6 +32,7 @@ export const Title = styled.span`
 export const Toggle = styled.span`
   font-size: 15px;
   font-weight: 700;
+  margin: 7px 0 0 0;
   cursor: pointer;
 `;
 

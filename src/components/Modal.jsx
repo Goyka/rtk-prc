@@ -24,6 +24,7 @@ const Modal = ({ mode }) => {
   const paintModal = () => {
     setModalOpen(true);
   };
+
   return (
     <>
       <St.TextLink
@@ -37,4 +38,4 @@ const Modal = ({ mode }) => {
   );
 };
 
-export default Modal;
+export default React.memo(Modal);

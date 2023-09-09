@@ -8,7 +8,7 @@ const Home = () => {
   return (
     <St.Wrap
       style={{
-        background: mode ? "#34344d" : "#f2ffb9",
+        background: mode ? "#34344d" : "#defcc1",
         color: mode ? "#f9f9f9" : "#151515",
       }}
     >

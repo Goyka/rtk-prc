@@ -12,7 +12,7 @@ const Body = ({ mode }) => {
   return (
     <St.Container
       style={{
-        background: mode ? "#34344d" : "#f2ffb9",
+        background: mode ? "#34344d" : "#defcc1",
       }}
     >
       <St.TextLink

@@ -12,6 +12,7 @@ export const Wrap = styled.div`
   height: 735px;
   padding: 21px;
   font-family: Arial, Helvetica, sans-serif;
+  letter-spacing: 0.2px;
 
   @media (max-width: 768px) {
     padding: 17px;
@@ -48,7 +49,7 @@ export const Container = styled.div`
   display: flex;
   flex-direction: column;
   font-size: 13px;
-  font-weight: 600;
+  font-weight: 550;
   line-height: 1.2;
 `;
 

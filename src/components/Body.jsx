@@ -3,10 +3,14 @@ import Modal from "./Modal";
 import * as St from "../style/styles";
 
 const Body = ({ mode }) => {
-  const [hover, setHover] = useState(false);
+  const [hoverMap, setHoverMap] = useState(false);
+  const [hoverMusic, setHoverMusic] = useState(false);
 
-  const handleMouseHover = () => {
-    setHover((prevHover) => !prevHover);
+  const handleMapHover = () => {
+    setHoverMap((prevHover) => !prevHover);
+  };
+  const handleMusicHover = () => {
+    setHoverMusic((prevHover) => !prevHover);
   };
 
   return (
@@ -17,10 +21,10 @@ const Body = ({ mode }) => {
     >
       <St.TextLink
         href="https://goo.gl/maps/9qBiBuzCWJ4M7WYv9"
-        onMouseEnter={handleMouseHover}
+        onMouseEnter={handleMapHover}
         style={{ color: mode ? "#f9f9f9" : "#151515" }}
       >
-        {hover ? "37°32'58.6\"n  127°04'55.9\"e" : "••• based in"}
+        {hoverMap ? "37°32'58.6\"n  127°04'55.9\"e" : "••• based in"}
       </St.TextLink>
       <Modal mode={mode} />
       <St.TextLink
@@ -34,6 +38,15 @@ const Body = ({ mode }) => {
         style={{ color: mode ? "#f9f9f9" : "#151515" }}
       >
         velog : knowledge store / link
+      </St.TextLink>
+      <St.TextLink
+        href="https://spotify.link/1mTCZ2Im2Cb"
+        style={{ color: mode ? "#f9f9f9" : "#151515" }}
+        onMouseEnter={handleMusicHover}
+      >
+        {hoverMusic
+          ? "Svaneborg Kardyb - Haven 💿"
+          : "monthly album : september / sportify"}
       </St.TextLink>
     </St.Container>
   );
